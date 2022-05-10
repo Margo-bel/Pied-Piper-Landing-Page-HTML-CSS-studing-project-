@@ -1,0 +1,48 @@
+@import url("normalize.css");
+.container{
+    width: 100%;
+    max-width: 1109px;
+    padding: 0 55px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.logo{
+    float: left;
+    width: 184px;
+    margin-top: 20px;
+    margin-bottom: 19px;
+}
+.logo img{
+    width: 184px;
+}
+nav{
+    float:right;
+    margin-top: 26px;
+}
+header .container{
+    background-color: #007765;
+}
+
+.clear{
+    clear: both;
+}
+ul {
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+}
+
+a {text-decoration: none;
+}
+nav li{
+    display: inline-block;
+    color: white;
+    font: 24px Roboto;
+}
+nav a{
+    color: white;
+}
+.jumbotron{
+
+}
