@@ -1,12 +1,12 @@
 @import url("normalize.css");
 .container{
-    width: 100%;
-    max-width: 1109px;
-    padding: 0 55px;
+    box-sizing: border-box;
+    max-width: 1219px;
     margin-left: auto;
     margin-right: auto;
+    padding-left: 55px;
+    padding-right: 55px;
 }
-
 .logo{
     float: left;
     width: 184px;
@@ -43,6 +43,20 @@ nav li{
 nav a{
     color: white;
 }
-.jumbotron{
+.jumbotron .container{
+    background-image: url("../images/back1.png");
+    background-size: cover;
+    background-position: center center;
+    padding-top: 160px;
+    padding-bottom:160px;
+}
 
+.text {
+    font-family: Roboto, sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    color: #fff;
 }
