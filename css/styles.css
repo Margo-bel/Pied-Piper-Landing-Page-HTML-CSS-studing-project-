@@ -62,7 +62,7 @@ nav a{
     color: #fff;
 }
 
-#problem, #PiedPiperCoin{
+#problem, #PiedPiperCoin, #team{
     font-family: Roboto, sans-serif;
     font-weight: 500;
     font-size: 64px;
@@ -118,7 +118,7 @@ nav a{
     flex-wrap: wrap;
 }
 
-.Team .container{
+.team_membercards{
     display: flex;
     flex-direction: row;
 }
@@ -128,4 +128,22 @@ nav a{
 }
 .team_membercard div{
     font-size: 24px;
+}
+
+.PPC .container{
+    background-color: white;
+}
+
+footer .container{
+    background-color: #333333;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: white;
+}
+footer .container p {
+    margin: 48px 285px 64px 285px;
 }
