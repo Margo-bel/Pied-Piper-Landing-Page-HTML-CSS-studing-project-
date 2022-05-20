@@ -77,7 +77,7 @@ nav a{
     font-family: Roboto, sans-serif;
     font-weight: 400;
     font-size: 32px;
-    line-height: 37.5px;
+    line-height: 38px;
     color: #000000;
 }
 .the_problem p:last-child, .PPC p:last-child {
@@ -116,18 +116,26 @@ nav a{
     flex-direction: column;
     align-items: center;
     flex-wrap: wrap;
+    margin-bottom: 122px;
 }
 
 .team_membercards{
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .team_membercard img{
     width: 168px;
 }
 .team_membercard div{
+    font-size: 18px;
+}
+
+.team_membercard a{
     font-size: 24px;
+    color: #007765;
 }
 
 .PPC .container{
