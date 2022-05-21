@@ -1,10 +1,10 @@
 @import url("normalize.css");
-.container{
+.container {
     box-sizing: border-box;
     max-width: 1219px;
     height: 100%;
     margin: 0 auto;
-    padding-left: 55px;
+    padding-left: 56px;
     padding-right: 55px;
     background-color: #EEEEEE;
     overflow: hidden;
@@ -13,14 +13,14 @@
     float: left;
     width: 184px;
     margin-top: 20px;
-    margin-bottom: 19px;
+    margin-bottom: 16px;
 }
 .logo img{
     width: 184px;
 }
 nav{
     float:right;
-    margin-top: 26px;
+    margin-top: 28px;
 }
 header .container{
     background-color: #007765;
@@ -33,14 +33,15 @@ ul {
     list-style: none;
     margin: 0;
     padding-left: 0;
-}
+    }
 
 a {text-decoration: none;
 }
 nav li{
     display: inline-block;
     color: white;
-    font: 24px Roboto;
+    font: 24px Roboto, sans-serif;
+    font-weight: 500;
 }
 nav a{
     color: white;
@@ -53,6 +54,13 @@ nav a{
     padding-bottom:160px;
 }
 
+sup{
+    font-size: 12px;
+}
+b{
+    font-weight: 700;
+    letter-spacing: -0.7px;
+}
 .textPiper {
     font-family: Roboto, sans-serif;
     font-weight: 500;
@@ -77,8 +85,9 @@ nav a{
     font-family: Roboto, sans-serif;
     font-weight: 400;
     font-size: 32px;
-    line-height: 38px;
+    line-height: 39.5px;
     color: #000000;
+    margin-top: 15px;
 }
 .the_problem p:last-child, .PPC p:last-child {
     margin-bottom: 92px;
@@ -89,7 +98,7 @@ nav a{
     background-image: url("../images/image-1.png");
     background-size: cover;
     background-position: center center;
-    padding: 128px 163px;
+    padding: 78px 163px;
 }
 
 .Hero p{
@@ -116,7 +125,7 @@ nav a{
     flex-direction: column;
     align-items: center;
     flex-wrap: wrap;
-    margin-bottom: 122px;
+    margin-top: 50px;
 }
 
 .team_membercards{
@@ -124,24 +133,31 @@ nav a{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
+    margin-bottom: 34px;
 }
 
 .team_membercard img{
     width: 168px;
+    margin-bottom: 16px;
 }
 .team_membercard div{
     font-size: 18px;
+    font-family: Roboto, sans-serif;
 }
 
 .team_membercard a{
+    font-weight: 700;
     font-size: 24px;
+    line-height: 28px;
     color: #007765;
 }
 
 .PPC .container{
     background-color: white;
 }
-
+.Team .container{
+    padding-bottom: 84px;
+}
 footer .container{
     background-color: #333333;
     font-family: Roboto, sans-serif;
